@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.6.1](https://github.com/Lfd4/djangocms-haystack/compare/v0.6.0...v0.6.1) (2026-07-23)
+
+
+### Bug Fixes
+
+* add djangocms-admin-style explicitly as dependency to pyproject.toml since django 5.1 removed it as one, django-app-helper still uses it ([7b87412](https://github.com/Lfd4/djangocms-haystack/commit/7b87412ca6bf29afed5bad1f8445b6dfe90def13))
+* update cms version constraints for compatibility ([01e14ff](https://github.com/Lfd4/djangocms-haystack/commit/01e14ff5275dcd6d372d27d09a21f971c92bf4b7))
+* update cms version to 5.1.0 in QA workflow ([d9b6bc5](https://github.com/Lfd4/djangocms-haystack/commit/d9b6bc575c4e7d4d4ce3d58657b933abc68e446c))
+* update django-haystack dependency to version 3.4.0 ([bf2bc38](https://github.com/Lfd4/djangocms-haystack/commit/bf2bc38081f214a60e25a979079fba314f9890ec))
+
 ## [0.6.0](https://github.com/Lfd4/djangocms-haystack/compare/v0.5.1...v0.6.0) (2026-05-07)
 
 
